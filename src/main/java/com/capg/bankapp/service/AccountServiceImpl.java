@@ -57,5 +57,35 @@ public class AccountServiceImpl implements IAccountService{
 		return accountDao.findAccount(accountNo);
 	}
 	
+	
+	public void executeloop() {
+		long sum=0;
+		for(int i=0;i<=1000004534543543l;i++)
+			sum+=i;
+	}
+
+	@Override
+	public Account withdrawal(Account account, double amount) throws InsufficientOpeningBalanceException {
+		Account account2=accountDao.findAccount(account.getAccountNo());
+		
+		if(account2==null)
+			throw new IllegalArgumentException();
+		if(account2.getOpeningBalance()<amount)
+			throw new InsufficientOpeningBalanceException("Sorry! You do not have sufficient Balance!");
+		
+		
+		account2.setOpeningBalance(account2.getOpeningBalance()-amount);
+		
+		return account2;
+		
+	}
+
+	@Override
+	public int sumOfNumbers(int[] arr) {
+		int sum=0;
+		for(int n:arr)
+			sum+=n;
+		return sum;
+	}
 
 }
