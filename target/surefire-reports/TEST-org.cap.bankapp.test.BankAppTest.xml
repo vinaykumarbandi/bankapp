@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.cap.bankapp.test.BankAppTest" time="0.387" tests="6" errors="0" skipped="1" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\vidavid\git\bankapp\target\test-classes;C:\Users\vidavid\git\bankapp\target\classes;C:\Users\vidavid\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\vidavid\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\vidavid\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\vidavid\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\vidavid\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\vidavid\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\vidavid\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\vidavid\.m2\repository\org\junit\platform\junit-platform-runner\1.5.2\junit-platform-runner-1.5.2.jar;C:\Users\vidavid\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\vidavid\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\vidavid\.m2\repository\org\junit\platform\junit-platform-launcher\1.5.2\junit-platform-launcher-1.5.2.jar;C:\Users\vidavid\.m2\repository\org\junit\platform\junit-platform-suite-api\1.5.2\junit-platform-suite-api-1.5.2.jar;C:\Users\vidavid\.m2\repository\org\mockito\mockito-junit-jupiter\2.22.0\mockito-junit-jupiter-2.22.0.jar;C:\Users\vidavid\.m2\repository\org\mockito\mockito-core\2.22.0\mockito-core-2.22.0.jar;C:\Users\vidavid\.m2\repository\net\bytebuddy\byte-buddy\1.8.21\byte-buddy-1.8.21.jar;C:\Users\vidavid\.m2\repository\net\bytebuddy\byte-buddy-agent\1.8.21\byte-buddy-agent-1.8.21.jar;C:\Users\vidavid\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_45\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\vidavid\AppData\Local\Temp\surefire2749936401001262830\surefirebooter1335005905917427726.jar C:\Users\vidavid\AppData\Local\Temp\surefire2749936401001262830 2021-03-11T14-56-06_415-jvmRun1 surefire1970844203242456965tmp surefire_01013512029978449742tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\vidavid\git\bankapp\target\test-classes;C:\Users\vidavid\git\bankapp\target\classes;C:\Users\vidavid\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\vidavid\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\vidavid\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\vidavid\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\vidavid\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\vidavid\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\vidavid\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\vidavid\.m2\repository\org\junit\platform\junit-platform-runner\1.5.2\junit-platform-runner-1.5.2.jar;C:\Users\vidavid\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\vidavid\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\vidavid\.m2\repository\org\junit\platform\junit-platform-launcher\1.5.2\junit-platform-launcher-1.5.2.jar;C:\Users\vidavid\.m2\repository\org\junit\platform\junit-platform-suite-api\1.5.2\junit-platform-suite-api-1.5.2.jar;C:\Users\vidavid\.m2\repository\org\mockito\mockito-junit-jupiter\2.22.0\mockito-junit-jupiter-2.22.0.jar;C:\Users\vidavid\.m2\repository\org\mockito\mockito-core\2.22.0\mockito-core-2.22.0.jar;C:\Users\vidavid\.m2\repository\net\bytebuddy\byte-buddy\1.8.21\byte-buddy-1.8.21.jar;C:\Users\vidavid\.m2\repository\net\bytebuddy\byte-buddy-agent\1.8.21\byte-buddy-agent-1.8.21.jar;C:\Users\vidavid\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\vidavid"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_45\jre"/>
+    <property name="basedir" value="C:\Users\vidavid\git\bankapp"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\vidavid\AppData\Local\Temp\surefire2749936401001262830\surefirebooter1335005905917427726.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_45\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_45\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_45-b15"/>
+    <property name="user.name" value="vidavid"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.3"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_45\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\vidavid\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\vidavid\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_45"/>
+    <property name="user.dir" value="C:\Users\vidavid\git\bankapp"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_45\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\CapgeminiScripts\Support Tools\;C:\vidavid\Maven\apache-maven-3.6.0\bin;C:\Program Files\Git\cmd;C:\vidavid\Gradle\gradle-4.6-all\gradle-4.6\bin;C:\Program Files\Java\jdk1.8.0_45\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Cloud Foundry;C:\vidavid\Maven\apache-maven-3.3.9\bin;C:\Program Files\PuTTY\;C:\Program Files\Amazon\AWSCLI\bin\;C:\Program Files\Microsoft VS Code\bin;C:\WINDOWS\System32\OpenSSH\;C:\vidavid\Training\2021\SpringBoot_20_Jan_to_27_Jan\spring-2.4.2\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\vidavid\Kafka_ElasticSearch\kafka_install\zookeeper\apache-zookeeper3\bin;C:\Program Files\nodejs\;C:\Users\vidavid\AppData\Local\Programs\Python\Python37-32;C:\Users\vidavid\AppData\Local\Programs\Python\Python37-32\Scripts;C:\Users\vidavid\AppData\Roaming\Python\Python37\Scripts;C:\Program Files (x86)\MySQL\MySQL Server 5.1\bin;c:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\vidavid\AppData\Roaming\Cloud Foundry;C:\Users\vidavid\AppData\Roaming\npm;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\vidavid\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.45-b02"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="test_loop" classname="org.cap.bankapp.test.BankAppTest" time="0">
+    <skipped message="public void org.cap.bankapp.test.BankAppTest.test_loop() is @Disabled"/>
+  </testcase>
+  <testcase name="test_deposit_method" classname="org.cap.bankapp.test.BankAppTest" time="0.379"/>
+  <testcase name="test_withDrawal_transaction" classname="org.cap.bankapp.test.BankAppTest" time="0"/>
+  <testcase name="test_createAccount_with_valid_Customer" classname="org.cap.bankapp.test.BankAppTest" time="0.001"/>
+  <testcase name="test_invalidBalance_when_createAccount" classname="org.cap.bankapp.test.BankAppTest" time="0.002"/>
+  <testcase name="test_createAccount_with_null_customer" classname="org.cap.bankapp.test.BankAppTest" time="0.001"/>
+</testsuite>

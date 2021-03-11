@@ -18,7 +18,7 @@ import com.capg.bankapp.service.AccountServiceImpl;
 import com.capg.bankapp.service.IAccountService;
 
 @DisplayName("Test -> Parameterized Test cases")
-public class ParameterizedTestCase {
+public class BankAppParameterizedTest {
 	
 	
 	private IAccountService accountService;

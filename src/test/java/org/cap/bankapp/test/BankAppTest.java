@@ -28,7 +28,7 @@ import com.capg.bankapp.util.InsufficientOpeningBalanceException;
 
 @ExtendWith(MockitoExtension.class)
 @MockitoSettings(strictness = Strictness.WARN)
-class BankAppTestCase {
+class BankAppTest {
 
 	
 	private IAccountService accountService;
