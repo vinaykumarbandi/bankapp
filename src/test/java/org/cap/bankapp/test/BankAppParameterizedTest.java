@@ -45,7 +45,8 @@ public class BankAppParameterizedTest {
 		return Stream.of(
 				Arguments.of(1,1,2),
 				Arguments.of(11,21,32),
-				Arguments.of(1,-1,0)
+				Arguments.of(1,-1,0),
+				Arguments.of(100,-1,99)
 				);
 	}
 	
