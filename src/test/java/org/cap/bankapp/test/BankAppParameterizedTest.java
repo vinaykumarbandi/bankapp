@@ -66,7 +66,8 @@ public class BankAppParameterizedTest {
 		return Stream.of(
 				Arguments.of(new int[]{1,2,3},6),
 				Arguments.of(new int[]{2,2,2,2},8),
-				Arguments.of(new int[]{1,2,1},4)
+				Arguments.of(new int[]{1,2,1},4),
+				Arguments.of(new int[]{1,2,2},5)
 				);
 	}
 }
